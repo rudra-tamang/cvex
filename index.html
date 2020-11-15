@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>RBT - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <script type="text/javascript" src="js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0" name="viewport">
+
+</head>
+
+<body>
+  <div class="main-container">
+
+    <div id="rbt1bg" class="bg-container">
+      <div id="rbt1" class="container">
+        <div id="personalTwist" class="personalTwist">
+          <div id="homeC" class="content">
+            <h1>I'm Rudra</h1>
+            <h2>a Developer.</h2>
+          </div>
+
+          <!-- Education -->
+          <div id="eduC" class="contentOG">
+            <p><strong>Brunel University</strong><br>
+              Sept 2011 - July 2015<br>
+              <strong>BSc Computer Science</strong><br>
+              <span class="l-line">Achieved: 2:1 classification</span>
+            </p>
+
+            <p><strong>West Thames College</strong><br>
+              Sept 2009 - June 2011<br>
+              <strong>BTEC Level 3 ICT System Support and Networking</strong><br>
+              <span class="l-line">Achieved: Triple Distinction</span>
+            </p>
+
+          </div>
+
+          <!-- Work -->
+          <div id="workC" class="contentOG">
+
+            <div id="workC1" class="workEx workExS">
+              <p><strong>Magnetise Group, <br />Hammersmith</strong><br>
+                May 2016 - Current<br>
+                <strong class="l-line">Role: Senior Technical Account Manager</strong><br>
+              </p>
+
+              <ul>
+                <li>A challenging client-facing role requiring strong written and verbal communication to support clients in maximising campaign activity from set up through to execution.</li>
+                <li>Provide expertise and support to deliver technical and campaign recommendations while working closely with the team to identify and resolve operational or campaign issues.</li>
+                <li>Line managing direct reports and supporting their career development by carrying out monthly one-to-ones and appraisals.</li>
+                <li>Managing and tracking the team’s internal and external tickets to ensure their timely resolution.</li>
+                <li>Design, building and test websiets using HTML, CSS and Javascript.</li>
+                <li>Using SQL for data extraction, reporting and event jounry testing.</li>
+              </ul>
+            </div>
+
+            <div id="workC2" class="workEx workExH">
+              <p><strong>Stanhope Seta Ltd, <br />Chertsey, Surrey</strong><br>
+                June 2013 - July 2014<br>
+                <strong class="l-line">Role: Project Support Engineer</strong><br>
+              </p>
+
+              <ul>
+                <li>Implemented instruction library for instruments with the approval process, asset register to record/track location of jigs and Engineering Request Change in SharePoint 2013.</li>
+                <li>Worked with various departments throughout the life cycle of application development.</li>
+                <li>Built Order book database for outstanding order and linked it with the various data source, to accurately track order between departments and improve communication efficiency.</li>
+                <li>Revamped Purchasing database with new functionality and interface, which improved productivity.</li>
+                <li>Used technology such as ASP.NET framework with VB, IIS, HTML and JavaScript to develop the website, used SharePoint 2010 and 2013 to create custom workflow solutions, and MS Access VBA, SQL to develop databases.</li>
+              </ul>
+            </div>
+
+            <div id="workNext" onclick="nextWork();"></div>
+
+          </div>
+
+          <!-- Hobbies -->
+          <div id="hobC" class="contentOG">
+            <p>
+              <strong>Photography:</strong>
+              <br>
+              Enjoy taking photographs of night sky and scenery. <br><a href="https://www.flickr.com/photos/128252577@N05/" target="_blank">https://www.flickr.com/photos/128252577@N05/</a>
+              <br><br>
+              <strong>Sports:</strong><br>
+              Mainly play basketball and badminton due to its intensity/enjoyment. Enjoys running time to time.
+            </p>
+          </div>
+        </div>
+
+        <div id="menuContainer" class="menuContainer">
+          <ul id="menu">
+            <li>
+              <div id="home" onclick="fader(this);">
+
+              </div>
+            </li>
+            <li>
+              <p id="edu" onclick="fader(this);">Education</p>
+            </li>
+            <li>
+              <p id="work" onclick="fader(this)">Work</p>
+            </li>
+            <li>
+              <p id="hob" onclick="fader(this)">Hobbies</p>
+            </li>
+          </ul>
+
+          <audio controls muted loop id="audio">
+            <source src="audio/Done_With_Work.mp3">
+          </audio>
+
+          <p id="copyR"><span>&copy;</span>
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+            Rudra Tamang. All rights reserved.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
