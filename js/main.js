@@ -5,18 +5,7 @@ window.onload = function () {
     relax.muted = false;
     relax.play();
   }, 3000);
-
-  var rbt = document.getElementById("rbt1");
-  var menuC = document.getElementById("menuContainer");
-  var personalTwist = document.getElementById("personalTwist");
-  var cs = getComputedStyle(rbt);
-
-  var personalTwistHeight = rbt.offsetHeight -  (parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom)) - menuC.offsetHeight - 20;
-  personalTwist.style.minHeight = personalTwistHeight + "px";
-  personalTwist.style.maxHeight = personalTwistHeight + "px";
-
-
-  console.log(personalTwistHeight);
+  
 }
 
 function fader(ele) {
